@@ -9,18 +9,6 @@
     margin: 0 7.5px 15px;
     overflow: hidden;
     
-    &.large {
-        height: 380px;
-    }
-    
-    &:first-child {
-        margin-right: 7.5px;
-    }
-
-    &:last-child {
-        margin-left: 7.5px;
-    }
-
     &:hover {
         cursor: pointer;
 
@@ -32,6 +20,18 @@
         & .content {            
             opacity: 0.9;
         }
+    }
+
+    &.large {
+        height: 380px;
+    }
+    
+    &:first-child {
+        margin-right: 7.5px;
+    }
+
+    &:last-child {
+        margin-left: 7.5px;
     }
 
     .background-image {
@@ -55,7 +55,7 @@
 
         .title {
             font-weight: bold;
-            margin-bottom: 9px;
+            margin: 0 6px 0;
             font-size: 22px;
             color: #4a4a4a;
         }
